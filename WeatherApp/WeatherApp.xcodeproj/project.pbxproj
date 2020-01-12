@@ -3,17 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		65F9D5E36F18EB156765E1CE /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98222A8E86203D6865C9B4FD /* Pods_WeatherApp.framework */; };
 		E08A40CF23CAFB66009126D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40CE23CAFB66009126D4 /* AppDelegate.swift */; };
 		E08A40D123CAFB66009126D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40D023CAFB66009126D4 /* SceneDelegate.swift */; };
-		E08A40D323CAFB66009126D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40D223CAFB66009126D4 /* ViewController.swift */; };
 		E08A40D623CAFB66009126D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08A40D423CAFB66009126D4 /* Main.storyboard */; };
 		E08A40D823CAFB68009126D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08A40D723CAFB68009126D4 /* Assets.xcassets */; };
 		E08A40DB23CAFB68009126D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08A40D923CAFB68009126D4 /* LaunchScreen.storyboard */; };
+		E08A40E323CAFCE9009126D4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40E223CAFCE9009126D4 /* LoginVC.swift */; };
+		E08A40E623CAFD00009126D4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40E523CAFD00009126D4 /* HomeVC.swift */; };
+		E08A40E823CAFD15009126D4 /* WeatherDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40E723CAFD15009126D4 /* WeatherDetailVC.swift */; };
+		E08A40EE23CAFDA3009126D4 /* AppBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40ED23CAFDA3009126D4 /* AppBaseViewController.swift */; };
+		E08A40F023CB03D4009126D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40EF23CB03D4009126D4 /* Constants.swift */; };
+		E08A40F223CB0435009126D4 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40F123CB0435009126D4 /* LoadingIndicator.swift */; };
+		E08A40F423CB3063009126D4 /* SocialMediaConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40F323CB3063009126D4 /* SocialMediaConnection.swift */; };
+		E08A40F823CB3360009126D4 /* SecuritySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40F723CB3360009126D4 /* SecuritySettings.swift */; };
+		E08A40FA23CB33B8009126D4 /* AppCacheData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40F923CB33B8009126D4 /* AppCacheData.swift */; };
+		E08A40FC23CB343D009126D4 /* BioMetricAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40FB23CB343D009126D4 /* BioMetricAuthenticator.swift */; };
+		E08A40FF23CB34D1009126D4 /* AuthenticationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40FD23CB34D0009126D4 /* AuthenticationErrors.swift */; };
+		E08A410023CB34D1009126D4 /* BiometricAuthenticationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40FE23CB34D1009126D4 /* BiometricAuthenticationConstants.swift */; };
+		E08A410223CB355E009126D4 /* UIStoryboard+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A410123CB355E009126D4 /* UIStoryboard+Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,11 +34,23 @@
 		E08A40CB23CAFB65009126D4 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08A40CE23CAFB66009126D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E08A40D023CAFB66009126D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E08A40D223CAFB66009126D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E08A40D523CAFB66009126D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E08A40D723CAFB68009126D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E08A40DA23CAFB68009126D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E08A40DC23CAFB68009126D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08A40E223CAFCE9009126D4 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E08A40E523CAFD00009126D4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		E08A40E723CAFD15009126D4 /* WeatherDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailVC.swift; sourceTree = "<group>"; };
+		E08A40ED23CAFDA3009126D4 /* AppBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBaseViewController.swift; sourceTree = "<group>"; };
+		E08A40EF23CB03D4009126D4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E08A40F123CB0435009126D4 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		E08A40F323CB3063009126D4 /* SocialMediaConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaConnection.swift; sourceTree = "<group>"; };
+		E08A40F723CB3360009126D4 /* SecuritySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuritySettings.swift; sourceTree = "<group>"; };
+		E08A40F923CB33B8009126D4 /* AppCacheData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCacheData.swift; sourceTree = "<group>"; };
+		E08A40FB23CB343D009126D4 /* BioMetricAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricAuthenticator.swift; sourceTree = "<group>"; };
+		E08A40FD23CB34D0009126D4 /* AuthenticationErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationErrors.swift; sourceTree = "<group>"; };
+		E08A40FE23CB34D1009126D4 /* BiometricAuthenticationConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiometricAuthenticationConstants.swift; sourceTree = "<group>"; };
+		E08A410123CB355E009126D4 /* UIStoryboard+Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Loader.swift"; sourceTree = "<group>"; };
 		EDB1598CB27AA5EA8155707B /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +80,6 @@
 				7FD08D0BF0412A2068021A3A /* Pods-WeatherApp.debug.xcconfig */,
 				EDB1598CB27AA5EA8155707B /* Pods-WeatherApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +104,67 @@
 		E08A40CD23CAFB65009126D4 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				E08A40E423CAFCEF009126D4 /* ViewControllers */,
+				E08A40EB23CAFD39009126D4 /* Models */,
+				E08A40EA23CAFD2D009126D4 /* ViewModels */,
+				E08A40EC23CAFD5A009126D4 /* View */,
+				E08A40E923CAFD23009126D4 /* Utilities */,
 				E08A40CE23CAFB66009126D4 /* AppDelegate.swift */,
 				E08A40D023CAFB66009126D4 /* SceneDelegate.swift */,
-				E08A40D223CAFB66009126D4 /* ViewController.swift */,
-				E08A40D423CAFB66009126D4 /* Main.storyboard */,
+				E08A40FB23CB343D009126D4 /* BioMetricAuthenticator.swift */,
+				E08A40FD23CB34D0009126D4 /* AuthenticationErrors.swift */,
+				E08A40FE23CB34D1009126D4 /* BiometricAuthenticationConstants.swift */,
 				E08A40D723CAFB68009126D4 /* Assets.xcassets */,
-				E08A40D923CAFB68009126D4 /* LaunchScreen.storyboard */,
 				E08A40DC23CAFB68009126D4 /* Info.plist */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		E08A40E423CAFCEF009126D4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E08A40E223CAFCE9009126D4 /* LoginVC.swift */,
+				E08A40E523CAFD00009126D4 /* HomeVC.swift */,
+				E08A40E723CAFD15009126D4 /* WeatherDetailVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E08A40E923CAFD23009126D4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E08A40ED23CAFDA3009126D4 /* AppBaseViewController.swift */,
+				E08A40EF23CB03D4009126D4 /* Constants.swift */,
+				E08A40F123CB0435009126D4 /* LoadingIndicator.swift */,
+				E08A40F323CB3063009126D4 /* SocialMediaConnection.swift */,
+				E08A40F723CB3360009126D4 /* SecuritySettings.swift */,
+				E08A40F923CB33B8009126D4 /* AppCacheData.swift */,
+				E08A410123CB355E009126D4 /* UIStoryboard+Loader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E08A40EA23CAFD2D009126D4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E08A40EB23CAFD39009126D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E08A40EC23CAFD5A009126D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E08A40D923CAFB68009126D4 /* LaunchScreen.storyboard */,
+				E08A40D423CAFB66009126D4 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +179,7 @@
 				E08A40C823CAFB65009126D4 /* Frameworks */,
 				E08A40C923CAFB65009126D4 /* Resources */,
 				7071886A032DA740E3FC36B3 /* [CP] Embed Pods Frameworks */,
+				BDCEFB1ACC97E309EA8DA149 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,6 +254,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BDCEFB1ACC97E309EA8DA149 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D85D657D8E5004BE47CA6958 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,9 +300,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08A40D323CAFB66009126D4 /* ViewController.swift in Sources */,
+				E08A410023CB34D1009126D4 /* BiometricAuthenticationConstants.swift in Sources */,
+				E08A40FC23CB343D009126D4 /* BioMetricAuthenticator.swift in Sources */,
+				E08A40FA23CB33B8009126D4 /* AppCacheData.swift in Sources */,
+				E08A40F823CB3360009126D4 /* SecuritySettings.swift in Sources */,
+				E08A40E823CAFD15009126D4 /* WeatherDetailVC.swift in Sources */,
 				E08A40CF23CAFB66009126D4 /* AppDelegate.swift in Sources */,
+				E08A40E623CAFD00009126D4 /* HomeVC.swift in Sources */,
 				E08A40D123CAFB66009126D4 /* SceneDelegate.swift in Sources */,
+				E08A40F223CB0435009126D4 /* LoadingIndicator.swift in Sources */,
+				E08A410223CB355E009126D4 /* UIStoryboard+Loader.swift in Sources */,
+				E08A40F423CB3063009126D4 /* SocialMediaConnection.swift in Sources */,
+				E08A40FF23CB34D1009126D4 /* AuthenticationErrors.swift in Sources */,
+				E08A40F023CB03D4009126D4 /* Constants.swift in Sources */,
+				E08A40E323CAFCE9009126D4 /* LoginVC.swift in Sources */,
+				E08A40EE23CAFDA3009126D4 /* AppBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,14 +461,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jasmeet.WeatherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weatherApp.appWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -374,14 +480,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jasmeet.WeatherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weatherApp.appWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
