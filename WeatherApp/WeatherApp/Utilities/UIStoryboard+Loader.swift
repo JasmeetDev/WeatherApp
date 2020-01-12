@@ -32,9 +32,14 @@ fileprivate extension UIStoryboard {
 
 extension UIStoryboard {
     //    Give all views same id and name here
-//    static func loadPasscodeVC() -> PasscodeVC {
-//        return loadFromMain(PasscodeVC.className) as! PasscodeVC
-//    }
+    static func loadLoginVC() -> LoginVC {
+        return loadFromMain(LoginVC.className) as! LoginVC
+    }
+
+    static func loadHomeVC() -> HomeVC {
+        return loadFromMain(HomeVC.className) as! HomeVC
+    }
+
 }
 
 
@@ -46,4 +51,14 @@ extension NSObject {
     class var className: String {
         return String(describing: self).components(separatedBy: ".").last!
     }
+}
+
+extension UITextField {
+    
+    func setLeftPadding(_ amount:CGFloat){
+        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))
+        self.leftView = paddingView
+        self.leftViewMode = .always
+    }
+
 }

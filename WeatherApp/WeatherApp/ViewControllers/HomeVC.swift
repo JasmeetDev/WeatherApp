@@ -20,6 +20,7 @@ class HomeVC: AppBaseViewController {
     }
     
     private func setUpView() {
+        txtInputField.setLeftPadding(15)
         txtInputField.placeholder = "Select city"
         txtInputField.addTarget(self, action: #selector(didSelectInputField(_:)), for: .touchDown)
     }
@@ -43,6 +44,8 @@ class HomeVC: AppBaseViewController {
 
     }
     
+    //MARK:- Private methods
+         
     private func validateInput() -> (Bool, String?) {
         if txtInputField.text!.isEmpty {
             return (false, "Please select city to proceed.")
@@ -80,8 +83,6 @@ extension HomeVC: GMSAutocompleteViewControllerDelegate {
 
   // Handle the user's selection.
   func viewController(_ viewController: GMSAutocompleteViewController, didAutocompleteWith place: GMSPlace) {
-    print("Place ID: \(place.placeID)")
-    print("Place attributions: \(place.attributions)")
     dismiss(animated: true) {
         self.txtInputField.text = place.name
     }

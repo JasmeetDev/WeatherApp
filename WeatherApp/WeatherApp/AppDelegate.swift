@@ -16,15 +16,22 @@ import GoogleSignIn
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    lazy var applicationServiceManager:AppServiceManager = AppServiceManager()
+    var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        GMSPlacesClient.provideAPIKey("AIzaSyAKQHjvdOVBRoAayTPjivHytPcK2ybAKQ8")
-        GIDSignIn.sharedInstance().clientID = "369233554511-d8c5lefoqlbsi4g79puv775v47do7d2q.apps.googleusercontent.com"
-
-        return true
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        return applicationServiceManager.application(application, didFinishLaunchingWithOptions: launchOptions)
     }
 
+    func applicationDidEnterBackground(_ application: UIApplication) {
+          applicationServiceManager.applicationDidEnterBackground(application)
+      }
+      
+      func applicationWillEnterForeground(_ application: UIApplication) {
+          applicationServiceManager.applicationWillEnterForeground(application)
+      }
     // MARK: UISceneSession Lifecycle
 
     @available(iOS 13.0, *)

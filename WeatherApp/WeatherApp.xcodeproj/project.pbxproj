@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		65F9D5E36F18EB156765E1CE /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98222A8E86203D6865C9B4FD /* Pods_WeatherApp.framework */; };
+		E06F31AE23CB66560046E3C0 /* AppService+NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F319B23CB66560046E3C0 /* AppService+NetworkReachability.swift */; };
+		E06F31AF23CB66560046E3C0 /* NetworkReachabilityNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F319C23CB66560046E3C0 /* NetworkReachabilityNotifier.swift */; };
+		E06F31B023CB66560046E3C0 /* AppService+AppLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F319E23CB66560046E3C0 /* AppService+AppLifeCycle.swift */; };
+		E06F31B123CB66560046E3C0 /* AppService+UserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F319F23CB66560046E3C0 /* AppService+UserActivity.swift */; };
+		E06F31B423CB66560046E3C0 /* AppServiceManager+ScreenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F31A323CB66560046E3C0 /* AppServiceManager+ScreenHandler.swift */; };
+		E06F31B723CB66560046E3C0 /* AppServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F31A723CB66560046E3C0 /* AppServiceManager.swift */; };
+		E06F31BA23CB66F40046E3C0 /* AppConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F31B923CB66F40046E3C0 /* AppConfigurations.swift */; };
 		E08A40CF23CAFB66009126D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40CE23CAFB66009126D4 /* AppDelegate.swift */; };
 		E08A40D123CAFB66009126D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40D023CAFB66009126D4 /* SceneDelegate.swift */; };
 		E08A40D623CAFB66009126D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08A40D423CAFB66009126D4 /* Main.storyboard */; };
@@ -20,17 +27,20 @@
 		E08A40F023CB03D4009126D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40EF23CB03D4009126D4 /* Constants.swift */; };
 		E08A40F223CB0435009126D4 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40F123CB0435009126D4 /* LoadingIndicator.swift */; };
 		E08A40F423CB3063009126D4 /* SocialMediaConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40F323CB3063009126D4 /* SocialMediaConnection.swift */; };
-		E08A40F823CB3360009126D4 /* SecuritySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40F723CB3360009126D4 /* SecuritySettings.swift */; };
 		E08A40FA23CB33B8009126D4 /* AppCacheData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40F923CB33B8009126D4 /* AppCacheData.swift */; };
-		E08A40FC23CB343D009126D4 /* BioMetricAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40FB23CB343D009126D4 /* BioMetricAuthenticator.swift */; };
-		E08A40FF23CB34D1009126D4 /* AuthenticationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40FD23CB34D0009126D4 /* AuthenticationErrors.swift */; };
-		E08A410023CB34D1009126D4 /* BiometricAuthenticationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A40FE23CB34D1009126D4 /* BiometricAuthenticationConstants.swift */; };
 		E08A410223CB355E009126D4 /* UIStoryboard+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A410123CB355E009126D4 /* UIStoryboard+Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7FD08D0BF0412A2068021A3A /* Pods-WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
 		98222A8E86203D6865C9B4FD /* Pods_WeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06F319B23CB66560046E3C0 /* AppService+NetworkReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppService+NetworkReachability.swift"; sourceTree = "<group>"; };
+		E06F319C23CB66560046E3C0 /* NetworkReachabilityNotifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityNotifier.swift; sourceTree = "<group>"; };
+		E06F319E23CB66560046E3C0 /* AppService+AppLifeCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppService+AppLifeCycle.swift"; sourceTree = "<group>"; };
+		E06F319F23CB66560046E3C0 /* AppService+UserActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppService+UserActivity.swift"; sourceTree = "<group>"; };
+		E06F31A323CB66560046E3C0 /* AppServiceManager+ScreenHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppServiceManager+ScreenHandler.swift"; sourceTree = "<group>"; };
+		E06F31A723CB66560046E3C0 /* AppServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppServiceManager.swift; sourceTree = "<group>"; };
+		E06F31B923CB66F40046E3C0 /* AppConfigurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurations.swift; sourceTree = "<group>"; };
 		E08A40CB23CAFB65009126D4 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08A40CE23CAFB66009126D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E08A40D023CAFB66009126D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,11 +55,7 @@
 		E08A40EF23CB03D4009126D4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E08A40F123CB0435009126D4 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		E08A40F323CB3063009126D4 /* SocialMediaConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaConnection.swift; sourceTree = "<group>"; };
-		E08A40F723CB3360009126D4 /* SecuritySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuritySettings.swift; sourceTree = "<group>"; };
 		E08A40F923CB33B8009126D4 /* AppCacheData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCacheData.swift; sourceTree = "<group>"; };
-		E08A40FB23CB343D009126D4 /* BioMetricAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricAuthenticator.swift; sourceTree = "<group>"; };
-		E08A40FD23CB34D0009126D4 /* AuthenticationErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationErrors.swift; sourceTree = "<group>"; };
-		E08A40FE23CB34D1009126D4 /* BiometricAuthenticationConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiometricAuthenticationConstants.swift; sourceTree = "<group>"; };
 		E08A410123CB355E009126D4 /* UIStoryboard+Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Loader.swift"; sourceTree = "<group>"; };
 		EDB1598CB27AA5EA8155707B /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +89,35 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E06F319323CB66560046E3C0 /* AppServiceManagers */ = {
+			isa = PBXGroup;
+			children = (
+				E06F319A23CB66560046E3C0 /* AppService+NetworkReachability */,
+				E06F319D23CB66560046E3C0 /* AppService+AppLifeCycle */,
+				E06F31A323CB66560046E3C0 /* AppServiceManager+ScreenHandler.swift */,
+				E06F31A723CB66560046E3C0 /* AppServiceManager.swift */,
+			);
+			path = AppServiceManagers;
+			sourceTree = "<group>";
+		};
+		E06F319A23CB66560046E3C0 /* AppService+NetworkReachability */ = {
+			isa = PBXGroup;
+			children = (
+				E06F319B23CB66560046E3C0 /* AppService+NetworkReachability.swift */,
+				E06F319C23CB66560046E3C0 /* NetworkReachabilityNotifier.swift */,
+			);
+			path = "AppService+NetworkReachability";
+			sourceTree = "<group>";
+		};
+		E06F319D23CB66560046E3C0 /* AppService+AppLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				E06F319E23CB66560046E3C0 /* AppService+AppLifeCycle.swift */,
+				E06F319F23CB66560046E3C0 /* AppService+UserActivity.swift */,
+			);
+			path = "AppService+AppLifeCycle";
+			sourceTree = "<group>";
+		};
 		E08A40C223CAFB65009126D4 = {
 			isa = PBXGroup;
 			children = (
@@ -111,9 +146,6 @@
 				E08A40E923CAFD23009126D4 /* Utilities */,
 				E08A40CE23CAFB66009126D4 /* AppDelegate.swift */,
 				E08A40D023CAFB66009126D4 /* SceneDelegate.swift */,
-				E08A40FB23CB343D009126D4 /* BioMetricAuthenticator.swift */,
-				E08A40FD23CB34D0009126D4 /* AuthenticationErrors.swift */,
-				E08A40FE23CB34D1009126D4 /* BiometricAuthenticationConstants.swift */,
 				E08A40D723CAFB68009126D4 /* Assets.xcassets */,
 				E08A40DC23CAFB68009126D4 /* Info.plist */,
 			);
@@ -133,12 +165,7 @@
 		E08A40E923CAFD23009126D4 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				E08A40ED23CAFDA3009126D4 /* AppBaseViewController.swift */,
 				E08A40EF23CB03D4009126D4 /* Constants.swift */,
-				E08A40F123CB0435009126D4 /* LoadingIndicator.swift */,
-				E08A40F323CB3063009126D4 /* SocialMediaConnection.swift */,
-				E08A40F723CB3360009126D4 /* SecuritySettings.swift */,
-				E08A40F923CB33B8009126D4 /* AppCacheData.swift */,
 				E08A410123CB355E009126D4 /* UIStoryboard+Loader.swift */,
 			);
 			path = Utilities;
@@ -154,6 +181,11 @@
 		E08A40EB23CAFD39009126D4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E06F31B923CB66F40046E3C0 /* AppConfigurations.swift */,
+				E08A40F923CB33B8009126D4 /* AppCacheData.swift */,
+				E08A40ED23CAFDA3009126D4 /* AppBaseViewController.swift */,
+				E08A40F323CB3063009126D4 /* SocialMediaConnection.swift */,
+				E06F319323CB66560046E3C0 /* AppServiceManagers */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,6 +193,7 @@
 		E08A40EC23CAFD5A009126D4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E08A40F123CB0435009126D4 /* LoadingIndicator.swift */,
 				E08A40D923CAFB68009126D4 /* LaunchScreen.storyboard */,
 				E08A40D423CAFB66009126D4 /* Main.storyboard */,
 			);
@@ -300,21 +333,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08A410023CB34D1009126D4 /* BiometricAuthenticationConstants.swift in Sources */,
-				E08A40FC23CB343D009126D4 /* BioMetricAuthenticator.swift in Sources */,
 				E08A40FA23CB33B8009126D4 /* AppCacheData.swift in Sources */,
-				E08A40F823CB3360009126D4 /* SecuritySettings.swift in Sources */,
 				E08A40E823CAFD15009126D4 /* WeatherDetailVC.swift in Sources */,
+				E06F31BA23CB66F40046E3C0 /* AppConfigurations.swift in Sources */,
+				E06F31B723CB66560046E3C0 /* AppServiceManager.swift in Sources */,
 				E08A40CF23CAFB66009126D4 /* AppDelegate.swift in Sources */,
 				E08A40E623CAFD00009126D4 /* HomeVC.swift in Sources */,
 				E08A40D123CAFB66009126D4 /* SceneDelegate.swift in Sources */,
+				E06F31B023CB66560046E3C0 /* AppService+AppLifeCycle.swift in Sources */,
 				E08A40F223CB0435009126D4 /* LoadingIndicator.swift in Sources */,
+				E06F31B423CB66560046E3C0 /* AppServiceManager+ScreenHandler.swift in Sources */,
 				E08A410223CB355E009126D4 /* UIStoryboard+Loader.swift in Sources */,
+				E06F31AF23CB66560046E3C0 /* NetworkReachabilityNotifier.swift in Sources */,
 				E08A40F423CB3063009126D4 /* SocialMediaConnection.swift in Sources */,
-				E08A40FF23CB34D1009126D4 /* AuthenticationErrors.swift in Sources */,
+				E06F31B123CB66560046E3C0 /* AppService+UserActivity.swift in Sources */,
 				E08A40F023CB03D4009126D4 /* Constants.swift in Sources */,
 				E08A40E323CAFCE9009126D4 /* LoginVC.swift in Sources */,
 				E08A40EE23CAFDA3009126D4 /* AppBaseViewController.swift in Sources */,
+				E06F31AE23CB66560046E3C0 /* AppService+NetworkReachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYWK8269G9;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYWK8269G9;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
