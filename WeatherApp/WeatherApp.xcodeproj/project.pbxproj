@@ -168,13 +168,13 @@
 		E08A40CD23CAFB65009126D4 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				E08A40CE23CAFB66009126D4 /* AppDelegate.swift */,
+				E08A40D023CAFB66009126D4 /* SceneDelegate.swift */,
 				E08A40E423CAFCEF009126D4 /* ViewControllers */,
 				E08A40EB23CAFD39009126D4 /* Models */,
 				E08A40EA23CAFD2D009126D4 /* ViewModels */,
 				E08A40EC23CAFD5A009126D4 /* View */,
 				E08A40E923CAFD23009126D4 /* Utilities */,
-				E08A40CE23CAFB66009126D4 /* AppDelegate.swift */,
-				E08A40D023CAFB66009126D4 /* SceneDelegate.swift */,
 				E08A40D723CAFB68009126D4 /* Assets.xcassets */,
 				E08A40DC23CAFB68009126D4 /* Info.plist */,
 			);
