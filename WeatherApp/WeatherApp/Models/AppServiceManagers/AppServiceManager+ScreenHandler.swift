@@ -2,7 +2,7 @@
 //  AppServiceManager+ScreenHandler.swift
 //  Gamigado
 //
-//  Created by Vaneet Modgill on 14/12/18.
+//  Created by Jasmeet Singh on 14/12/18.
 //  Copyright © 2018 SDNATech. All rights reserved.
 //
 import UIKit

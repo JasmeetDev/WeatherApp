@@ -2,7 +2,7 @@
 //  Constants.swift
 //  WeatherApp
 //
-//  Created by Vaneet Modgill on 12/01/20.
+//  Created by Jasmeet Singh on 12/01/20.
 //  Copyright © 2020 Jasmeet. All rights reserved.
 //
 

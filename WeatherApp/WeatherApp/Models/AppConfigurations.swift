@@ -2,7 +2,7 @@
 //  AppConfigurations.swift
 //  WeatherApp
 //
-//  Created by Vaneet Modgill on 12/01/20.
+//  Created by Jasmeet Singh on 12/01/20.
 //  Copyright © 2020 Jasmeet. All rights reserved.
 //
 
@@ -16,6 +16,10 @@ class AppConfigurations {
 
     static func googlePlaceApiKey() -> String {
         return "AIzaSyAKQHjvdOVBRoAayTPjivHytPcK2ybAKQ8"
+    }
+    
+    static func weatherAPIKey() -> String {
+       return "892170496999363ebafb322e0fe619bb"
     }
   
 }

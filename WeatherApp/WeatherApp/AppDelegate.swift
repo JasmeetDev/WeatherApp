@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  WeatherApp
 //
-//  Created by Vaneet Modgill on 12/01/20.
+//  Created by Jasmeet Singh on 12/01/20.
 //  Copyright © 2020 Jasmeet. All rights reserved.
 //
 //369233554511-d8c5lefoqlbsi4g79puv775v47do7d2q.apps.googleusercontent.com

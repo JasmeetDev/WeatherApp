@@ -2,7 +2,7 @@
 //  AppService+UserActivity.swift
 //  Gamigado
 //
-//  Created by Vaneet Modgill on 19/12/18.
+//  Created by Jasmeet Singh on 19/12/18.
 //  Copyright © 2018 SDNATech. All rights reserved.
 //
 

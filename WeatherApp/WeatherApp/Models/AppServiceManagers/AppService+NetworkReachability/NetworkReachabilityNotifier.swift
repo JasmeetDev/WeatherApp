@@ -2,8 +2,8 @@
 //  NetworkReachabilityNotifier.swift
 //  Gamigado
 //
-//  Created by Vaneet Modgill on 19/04/17.
-//  Copyright © 2018 Vaneet Modgill. All rights reserved.
+//  Created by Jasmeet Singh on 19/04/17.
+//  Copyright © 2018 Jasmeet Singh. All rights reserved.
 //
 
 import Foundation

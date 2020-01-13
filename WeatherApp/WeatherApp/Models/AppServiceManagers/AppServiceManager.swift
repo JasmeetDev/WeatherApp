@@ -2,8 +2,8 @@
 //  AppServiceManager.swift
 //  Gamigado
 //
-//  Created by Vaneet Modgill on 13/02/17.
-//  Copyright © 2018 Vaneet Modgill. All rights reserved.
+//  Created by Jasmeet Singh on 13/02/17.
+//  Copyright © 2018 Jasmeet Singh. All rights reserved.
 //
 
 import UIKit
